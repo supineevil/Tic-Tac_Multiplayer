@@ -72,3 +72,12 @@ h1 {
 	letter-spacing: 5px;
 	color: #2ac9ff;
 }
+
+@media screen and (max-width: 800px) {
+	#container{
+		width:400px;
+	}
+	h1{
+		font-size: 3em;
+	}
+}
